@@ -1,0 +1,50 @@
+nano config.py
+ 1099  DevelopmentConfig
+ 1100  clear
+ 1101  export APP_SETTINGS="config.DevelopmentConfig"
+ 1102  pip3 install flask_sqlalchemy
+ 1103  nano models.py
+ 1104  editor models.py 
+ 1105  nano manage.py
+ 1106  editor models.py 
+ 1107  mv run.py app.py
+ 1108  pip3 install flask_scriptl flask_migrate psycopg2-binary
+ 1109  pip3 install flask_scriptl 
+ 1110  pip3 install flask_script 
+ 1111  pip3 install flask_script flask_migrate psycopg2-binary
+ 1112  clear
+ 1113  python manage.py db init
+ 1114  python3 manage.py db init
+ 1115  pip3 install Flask-Migrate==2.6.0
+ 1116  python3 manage.py db init
+ 1117  export APP_SETTINGS="config.DevelopmentConfig"
+ 1118  export DATABASE_URL="postgresql://localhost/flask_db"
+ 1119  python3 manage.py db init
+ 1120  cat /home/localadmin/Desktop/Project/OnlineTest/migrations/alembic.ini
+ 1121  python manage.py db migrate
+ 1122  python3 manage.py db migrate
+ 1123  sudo service postgresql start
+ 1124  python3 manage.py db migrate
+ 1125  ss -l
+ 1126  ss -lnpt
+ 1127  clear
+ 1128  export DATABASE_URL="postgresql://pgb2022:password@localhost/flask_db"
+ 1129  python3 manage.py db migrate
+ 1130  python3 app.py startserver
+ 1131  python manage.py db init
+ 1132  python3 manage.py db init
+ 1133  python manage.py db migrate
+ 1134  python3 manage.py db migrate
+ 1135  python3 manage.py db upgrade
+ 1136  clear
+ 1137  sudo -u postgresql psql
+ 1138  python3 manage.py db migrate
+ 1139  python3 manage.py db upgrade
+ 1140  python3 manage.py db migrate
+ 1141  python3 manage.py db upgrade
+ 1142  clear
+ 1143  history
+ 1146  export APP_SETTINGS="config.DevelopmentConfig"
+ 1147  clear && python3 app.py 
+ 1148  export DATABASE_URL="postgresql://pgb2022:password@localhost/flask_db"
+ 1149  clear && python3 app.py
