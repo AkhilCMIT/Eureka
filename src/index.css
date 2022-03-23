@@ -1,0 +1,27 @@
+
+.topnav h3 {
+  float: center;
+  text-color: white;
+  background-color: darkslategrey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.topnav a {
+  float: right;
+  color: black;
+  background-color: darkslategrey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.buttons button {
+  font-size:15px;
+  color: #343434;
+  padding: 10px 15px 15px 10px;
+  margin-top: 15px;
+  margin-left:20px;
+ 
+}
